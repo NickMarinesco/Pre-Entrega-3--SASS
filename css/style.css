@@ -39,4 +39,21 @@ header {
 .nav img {
   width: 137px;
   margin-left: -26px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #537895, #000000);
+}
+footer img {
+  width: 30px;
+}
+
+main {
+  background-image: linear-gradient(to right, #537895, #000000);
+  color: white;
+}
+main h1 {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
