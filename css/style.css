@@ -83,8 +83,17 @@ main .section-main-index .btn-primary {
   background-color: #D21418;
 }
 
+.btn-primary {
+  background-color: #D21418;
+}
+
 main {
   margin-top: 0px;
+}
+main .row {
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 main .form-section {
