@@ -56,10 +56,20 @@ footer .copy {
 main {
   background-image: linear-gradient(to right, #537895, #000000);
   color: white;
+  min-height: 91vh;
 }
 main h1 {
   text-align: center;
 }
 main .section-main-index .row {
   align-items: center;
+}
+
+.boton-inicio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  background-image: linear-gradient(to right, #537895, #000000);
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
