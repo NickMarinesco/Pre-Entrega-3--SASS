@@ -48,18 +48,27 @@ header {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-image: linear-gradient(to right, #537895, #000000);
 
     img {
         width: 30px;
-        
+    }
+    .copy{
+        color: white;
     }
 }
-main{
+
+main {
     background-image: linear-gradient(to right, #537895, #000000);
     color: white;
-    h1{
+
+    h1 {
         text-align: center;
     }
+  .section-main-index{
+    .row{
+        align-items: center;
+    }
+  }
 }

@@ -43,11 +43,14 @@ header {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-image: linear-gradient(to right, #537895, #000000);
 }
 footer img {
   width: 30px;
+}
+footer .copy {
+  color: white;
 }
 
 main {
@@ -56,4 +59,7 @@ main {
 }
 main h1 {
   text-align: center;
+}
+main .section-main-index .row {
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
