@@ -1,0 +1,24 @@
+
+header{
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    background-image: linear-gradient(to right, #D21418, #3d0f0f);
+
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    margin: 0px;
+}
+main{
+    
+    background-image: url(https://palomaynacho.com/wp-content/uploads/2022/12/john-wick-ccxp-poster.jpg);
+    color: white;
+    min-height: 91vh;
+    margin-top: 16px;
+}
