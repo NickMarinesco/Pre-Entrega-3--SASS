@@ -81,4 +81,12 @@ main .section-main-index .btn-primary {
 }
 .boton-inicio .btn-secondary {
   background-color: #D21418;
+}
+
+main {
+  margin-top: 0px;
+}
+
+main .form-section {
+  margin-top: 16px;
 }/*# sourceMappingURL=style.css.map */
