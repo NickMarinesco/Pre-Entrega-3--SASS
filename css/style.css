@@ -87,6 +87,11 @@ main .section-main-index .btn-primary {
   background-color: #D21418;
 }
 
+.main-pelis .text-center {
+  text-align: center;
+  display: flex;
+}
+
 main {
   margin-top: 0px;
 }
