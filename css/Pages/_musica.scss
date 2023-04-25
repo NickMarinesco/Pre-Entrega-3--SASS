@@ -1,11 +1,8 @@
 main{
     margin-top: 0px;
-    .row{
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
+   
     }
-}
+
 @media (max-width: 375px){
     .header-musica1{
         display: none;

@@ -96,8 +96,24 @@ main .section-main-index .btn-primary {
     display: none;
   }
 }
+header .nav-item .dropdown-menu {
+  background-color: rgba(187, 136, 138, 0.831372549);
+}
+header .nav-item .dropdown-menu a {
+  color: white;
+}
+
 .btn-primary {
   background-color: #D21418;
+}
+
+main .main-pelis {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+main .container {
+  flex-wrap: wrap;
 }
 
 @media (max-width: 375px) {
@@ -127,11 +143,6 @@ main .section-main-index .btn-primary {
 }
 main {
   margin-top: 0px;
-}
-main .row {
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
 }
 
 @media (max-width: 375px) {

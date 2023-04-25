@@ -1,21 +1,42 @@
-.btn-primary{
+header{
+    .nav-item{
+        .dropdown-menu{
+            background-color: #bb888ad4;
+            a{
+                color: white;
+            }
+        }
+    }
+}
+
+.btn-primary {
     background-color: #D21418;
 }
 
+main {
+    .main-pelis {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+}
 
 
 
 
-@media (max-width: 375px){
-    .header-peliculas1{
+
+@media (max-width: 375px) {
+    .header-peliculas1 {
         display: none;
     }
 
 }
-@media (min-width: 376px){
-    .header-peliculas2{
+
+@media (min-width: 376px) {
+    .header-peliculas2 {
         display: none;
     }
 }
-  
-
