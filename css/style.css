@@ -100,11 +100,31 @@ main .section-main-index .btn-primary {
   background-color: #D21418;
 }
 
+@media (max-width: 375px) {
+  .header-peliculas1 {
+    display: none;
+  }
+}
+@media (min-width: 376px) {
+  .header-peliculas2 {
+    display: none;
+  }
+}
 .main-pelis .text-center {
   text-align: center;
   display: flex;
 }
 
+@media (max-width: 375px) {
+  .header-series1 {
+    display: none;
+  }
+}
+@media (min-width: 376px) {
+  .header-series2 {
+    display: none;
+  }
+}
 main {
   margin-top: 0px;
 }
@@ -114,6 +134,27 @@ main .row {
   align-items: center;
 }
 
+@media (max-width: 375px) {
+  .header-musica1 {
+    display: none;
+  }
+}
+@media (min-width: 376px) {
+  .header-musica2 {
+    display: none;
+  }
+}
 main .form-section {
   margin-top: 16px;
+}
+
+@media (max-width: 375px) {
+  .header-registro1 {
+    display: none;
+  }
+}
+@media (min-width: 376px) {
+  .header-registro2 {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -6,3 +6,15 @@ main{
         align-items: center;
     }
 }
+@media (max-width: 375px){
+    .header-musica1{
+        display: none;
+    }
+
+}
+@media (min-width: 376px){
+    .header-musica2{
+        display: none;
+    }
+
+}
