@@ -95,4 +95,16 @@ main{
          background-color: #D21418;
 }
     }
-   
+
+
+   @media (max-width: 375px){
+    .header-index1{
+        display: none;
+    }
+   }
+   @media (min-width: 376px){
+    .header-index2{
+        display: none;
+    }
+
+   }
