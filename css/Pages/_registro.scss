@@ -1,8 +1,13 @@
-main{
-    .form-section{
-        margin-top: 0px;
-    }
+main .main-reg{
+    background-image: url(https://palomaynacho.com/wp-content/uploads/2022/12/john-wick-ccxp-poster.jpg);
+    color: white;
+    min-height: 100vh;
+    margin-top: 20px;
 }
+header{
+    height: 86px;
+}
+
 @media (max-width: 375px){
     .header-registro1{
         display: none;
