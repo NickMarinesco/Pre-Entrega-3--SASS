@@ -80,9 +80,16 @@ main h1 {
 }
 main .section-main-index .row {
   align-items: center;
+  height: 500px;
 }
 main .section-main-index .btn-primary {
   background-color: #D21418;
+}
+main .section-main-index .col {
+  flex: 1 0 0%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .boton-inicio {
@@ -126,6 +133,21 @@ main .main-pelis {
 main .container {
   flex-wrap: wrap;
 }
+main .col {
+  flex: 1 0 0%;
+  display: flex;
+  justify-content: space-around;
+}
+main .row {
+  --bs-gutter-x: -0.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  justify-content: space-around;
+}
 
 @media (max-width: 375px) {
   .header-peliculas1 {
@@ -137,9 +159,12 @@ main .container {
     display: none;
   }
 }
-.main-pelis .text-center {
-  text-align: center;
+main .col {
+  flex: 1 0 0%;
   display: flex;
+  justify-content: space-around;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 
 @media (max-width: 375px) {
@@ -152,8 +177,9 @@ main .container {
     display: none;
   }
 }
-main {
-  margin-top: 0px;
+main .container {
+  flex-wrap: wrap;
+  padding: 18px;
 }
 
 @media (max-width: 375px) {
@@ -167,7 +193,7 @@ main {
   }
 }
 main .form-section {
-  margin-top: 16px;
+  margin-top: 0px;
 }
 
 @media (max-width: 375px) {

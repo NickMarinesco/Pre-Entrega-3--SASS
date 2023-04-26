@@ -13,7 +13,7 @@ header{
     background-color: #D21418;
 }
 
-main {
+main{
     .main-pelis {
         display: flex;
         flex-wrap: wrap;
@@ -21,10 +21,24 @@ main {
     }
     .container{
         flex-wrap: wrap;
-    }
+ }
+ .col {
+    flex: 1 0 0%;
+    display: flex;
+    justify-content: space-around;
+}   
+.row{
+    --bs-gutter-x: -0.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: space-around;
 }
 
-
+}
 
 
 

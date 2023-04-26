@@ -2,15 +2,18 @@ header {
     width: 100%;
     background-color: rgb(7, 7, 7);
     background-image: linear-gradient(to left, #D9141B, #3d0f0f);
-    .nav{
-        a{
-            img{
+
+    .nav {
+        a {
+            img {
                 width: 40px;
                 height: 40px;
             }
         }
     }
-}   
+
+}
+
 
 .nav {
     display: flex;
@@ -94,13 +97,20 @@ main {
     .section-main-index {
         .row {
             align-items: center;
+            height: 500px;
         }
 
         .btn-primary {
             background-color: #D21418;
         }
-    }
 
+        .col {
+            flex: 1 0 0%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }   
+    }
 }
 
 .boton-inicio {
