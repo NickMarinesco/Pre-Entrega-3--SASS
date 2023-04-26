@@ -46,16 +46,23 @@ header {
 
 footer {
   display: flex;
-  background-image: linear-gradient(to right, #D21418, #000000);
+  background-image: linear-gradient(to right, #dbb1b2, #000000);
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
+  justify-content: space-around;
+  min-width: 100%;
+  color: wheat;
 }
-footer img {
-  width: 30px;
+footer .row {
+  justify-content: space-between;
 }
-footer .copy {
-  color: white;
+footer .row .col-md-4 h4 {
+  text-align: center;
+}
+footer .row .col-md-4 ul {
+  text-align: center;
+  list-style: none;
 }
 
 main {
