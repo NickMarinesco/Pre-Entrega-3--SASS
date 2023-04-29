@@ -40,42 +40,40 @@ header .nav a {
   color: #ffffff;
 }
 header .nav a:hover {
-  color: #dc143c;
+  color: #ffee00;
 }
 header .nav img {
   width: 137px;
   margin-left: -26px;
 }
 
-footer {
+footer .footer-index {
   display: flex;
-  background-image: linear-gradient(to right, #dbb1b2, #000000);
-  flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-around;
-  min-width: 100%;
-  color: wheat;
 }
-footer .row {
-  justify-content: space-between;
+footer .col-md-4 {
+  padding: 60px;
 }
-footer .row .col-md-4 h4 {
-  text-align: center;
+footer .social-icons img {
+  width: 40px;
+  height: 40px;
 }
-footer .row .col-md-4 ul {
-  text-align: center;
+footer .social-icons li {
   list-style: none;
 }
 
 main {
   background-image: url(https://palomaynacho.com/wp-content/uploads/2022/12/john-wick-ccxp-poster.jpg);
   color: white;
-  min-height: 91vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main h1 {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
+}
+main h1:hover {
+  color: #ffee00;
 }
 main .section-main-index .row {
   align-items: center;
@@ -195,10 +193,6 @@ main .main-reg {
   color: white;
   min-height: 100vh;
   margin-top: 20px;
-}
-
-header {
-  height: 86px;
 }
 
 @media (max-width: 375px) {
