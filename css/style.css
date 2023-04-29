@@ -58,6 +58,15 @@ footer .footer-index {
 footer .col-md-4 {
   padding: 60px;
 }
+footer .col-md-4 a:link {
+  color: #ffee00;
+}
+footer .col-md-4 a:visited {
+  color: chartreuse;
+}
+footer .col-md-4 a:active {
+  color: #d209ec;
+}
 footer .social-icons img {
   width: 40px;
   height: 40px;
@@ -117,10 +126,11 @@ header.nav-item .dropdown-menu a {
 main.main-pelis {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 main.main-pelis .container {
   flex-wrap: wrap;
+  padding: 2px;
 }
 main.main-pelis .col {
   flex: 1 0 0%;
@@ -138,7 +148,10 @@ main.main-pelis .row {
   justify-content: space-around;
 }
 main.main-pelis .btn-primary {
-  background-color: #D21418;
+  background-color: #0D6EFD;
+}
+main.main-pelis .titulo-h1 {
+  display: flex;
 }
 
 @media (max-width: 375px) {

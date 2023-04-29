@@ -14,11 +14,12 @@ header.nav-item {
 main.main-pelis {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column-reverse;
+    flex-direction: column;
  
  
     .container {
         flex-wrap: wrap;
+        padding: 2px;
     }
 
     .col {
@@ -39,7 +40,10 @@ main.main-pelis {
     }
 
     .btn-primary {
-        background-color: #D21418;
+        background-color: #0D6EFD;
+    }
+    .titulo-h1{
+        display: flex;
     }
 }
 

@@ -56,7 +56,7 @@ header {
 footer {
     background-color: #000000;
     color: burlywood;
-
+  
 
     .footer-index {
         display: flex;
@@ -65,6 +65,18 @@ footer {
 
     .col-md-4 {
         padding: 60px;
+        a{
+            &:link{
+                color: #ffee00;
+            }
+            &:visited{
+                color: chartreuse;
+            }
+            &:active{
+                color: #d209ec;
+
+            }
+        }
     }
 
     .social-icons {
@@ -82,38 +94,44 @@ footer {
     .row {
         flex-direction: row-reverse;
     }
+
 }
-main{
+
+main {
     background-image: url(https://www.mordeo.org/files/uploads/2019/03/Keanu-Reeves-In-John-Wick-Chapter-3-%E2%80%93-Parabellum-4K-Ultra-HD-Mobile-Wallpaper-950x1689.jpg);
     background-size: cover;
-    p{
+
+    p {
         color: #ffee00;
         background-color: #C609DB;
         border-radius: 15px;
         text-align: center;
-        &:hover{
+
+        &:hover {
             background-color: lighten($color: #C609DB, $amount: 20);
         }
     }
-    
-    
-       
-    }
-    
-    
-    
-    .col{
-            flex: 1 0 0%;
-            display: flex;
-            justify-content: space-around;
-            margin-top: 15%;
-            margin-bottom: 10%;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-      h1{
-        text-align: center;
-      }
+
+
+
+}
+
+
+
+.col {
+    flex: 1 0 0%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+
+}
 
 
 

@@ -1,7 +1,17 @@
-main .container {
-    flex-wrap: wrap;
-    padding: 18px;
-}
+main {
+    .container {
+        flex-wrap: wrap;
+        padding: 18px;
+    
+        
+    }
+    }
+    
+
+
+
+
+
 @media (max-width: 375px) {
     .header-musica1 {
         display: none;
