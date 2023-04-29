@@ -10,7 +10,7 @@
 header {
   width: 100%;
   background-color: rgb(7, 7, 7);
-  background-image: linear-gradient(to left, #D9141B, #3d0f0f);
+  background-image: linear-gradient(to left, #d209ec, #3d0f0f);
 }
 header .nav a img {
   width: 40px;
@@ -47,6 +47,10 @@ header .nav img {
   margin-left: -26px;
 }
 
+footer {
+  background-color: #000000;
+  color: burlywood;
+}
 footer .footer-index {
   display: flex;
   flex-wrap: wrap;
@@ -61,44 +65,36 @@ footer .social-icons img {
 footer .social-icons li {
   list-style: none;
 }
+footer .row {
+  flex-direction: row-reverse;
+}
 
 main {
-  background-image: url(https://palomaynacho.com/wp-content/uploads/2022/12/john-wick-ccxp-poster.jpg);
-  color: white;
-  background-repeat: no-repeat;
+  background-image: url(https://www.mordeo.org/files/uploads/2019/03/Keanu-Reeves-In-John-Wick-Chapter-3-%E2%80%93-Parabellum-4K-Ultra-HD-Mobile-Wallpaper-950x1689.jpg);
   background-size: cover;
 }
-main h1 {
-  text-align: center;
-  color: #ffffff;
-}
-main h1:hover {
+main p {
   color: #ffee00;
+  background-color: #C609DB;
+  border-radius: 15px;
+  text-align: center;
 }
-main .section-main-index .row {
-  align-items: center;
-  height: 500px;
+main p:hover {
+  background-color: #e752f8;
 }
-main .section-main-index .btn-primary {
-  background-color: #D21418;
-}
-main .section-main-index .col {
+
+.col {
   flex: 1 0 0%;
   display: flex;
   justify-content: space-around;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
-.boton-inicio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  color: white;
-  background-image: linear-gradient(to right, #D21418, #000000);
-  width: 100%;
-}
-.boton-inicio .btn-secondary {
-  background-color: #D21418;
+h1 {
+  text-align: center;
 }
 
 @media (max-width: 375px) {
@@ -193,6 +189,10 @@ main .main-reg {
   color: white;
   min-height: 100vh;
   margin-top: 20px;
+}
+
+.header-registro2 {
+  height: 72px;
 }
 
 @media (max-width: 375px) {
