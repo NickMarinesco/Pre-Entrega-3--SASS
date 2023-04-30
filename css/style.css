@@ -4,8 +4,9 @@
   padding: 0;
 }
 
-h1 {
+.text, h1 {
   text-align: center;
+  color: #ffee00;
 }
 
 header {
@@ -116,10 +117,6 @@ main p:hover {
   flex-wrap: wrap;
 }
 
-h1 {
-  text-align: center;
-}
-
 @media (max-width: 375px) {
   .header-index1 {
     display: none;
@@ -216,6 +213,10 @@ main .main-reg {
   color: #ffffff;
   min-height: 1000%;
   margin-top: 20px;
+}
+
+.form-label {
+  color: #ffee00;
 }
 
 .form-section {
