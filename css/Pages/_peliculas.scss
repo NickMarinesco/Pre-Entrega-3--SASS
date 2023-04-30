@@ -1,9 +1,9 @@
 header.nav-item {
     .dropdown-menu {
-        background-color: #bb888ad4;
+        background-color: $rojo-coral;
 
         a {
-            color: white;
+            color: $blanco;
         }
     }
 }
@@ -40,7 +40,7 @@ main.main-pelis {
     }
 
     .btn-primary {
-        background-color: #0D6EFD;
+        background-color: $azul-claro;
     }
     .titulo-h1{
         display: flex;
