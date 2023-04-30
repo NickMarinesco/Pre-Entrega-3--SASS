@@ -51,12 +51,23 @@ header {
         }
 
     }
+
+    .navbar-toggler {
+        background-color: #d510ff;
+    }
+    .navbar-nav{
+        --bs-nav-link-color: #fff;
+        .nav-link.active{
+            color: #fff;
+        }
+    }
 }
+
 
 footer {
     background-color: #000000;
     color: burlywood;
-  
+
 
     .footer-index {
         display: flex;
@@ -65,14 +76,17 @@ footer {
 
     .col-md-4 {
         padding: 60px;
-        a{
-            &:link{
+
+        a {
+            &:link {
                 color: #ffee00;
             }
-            &:visited{
+
+            &:visited {
                 color: chartreuse;
             }
-            &:active{
+
+            &:active {
                 color: #d209ec;
 
             }

@@ -46,6 +46,15 @@ header .nav img {
   width: 137px;
   margin-left: -26px;
 }
+header .navbar-toggler {
+  background-color: #d510ff;
+}
+header .navbar-nav {
+  --bs-nav-link-color: #fff;
+}
+header .navbar-nav .nav-link.active {
+  color: #fff;
+}
 
 footer {
   background-color: #000000;
