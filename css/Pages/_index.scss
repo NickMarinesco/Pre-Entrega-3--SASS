@@ -25,7 +25,7 @@ header {
             transform: scale(1.3);
 
             &:hover {
-                transform: scale(1.4);
+                transform: scale(1.2);
             }
 
         }
@@ -54,16 +54,18 @@ header {
 
     .navbar-toggler {
         background-color: $violeta;
-        
-        }
-    }
 
-.navbar-nav{
-            --bs-nav-link-color: #fff;
-        }
-        .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-            color: #fff;
-        }
+    }
+}
+
+.navbar-nav {
+    --bs-nav-link-color: #fff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fff;
+}
 
 footer {
     background-color: $negro;
@@ -145,10 +147,11 @@ main {
 }
 
 h1 {
-    text-align: center;
+    @extend .h1;
+
+
 
 }
-
 
 
 

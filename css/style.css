@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 header {
   width: 100%;
   background-color: #070707;
@@ -26,7 +30,7 @@ header .nav li {
   transform: scale(1.3);
 }
 header .nav li:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 header .nav ul {
   display: flex;
@@ -51,7 +55,8 @@ header .navbar-toggler {
   --bs-nav-link-color: #fff;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
   color: #fff;
 }
 

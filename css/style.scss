@@ -1,8 +1,10 @@
-@import "./Utilidades/reset";
+
 @import "./Utilidades/fondo_secciones";
 @import "./Utilidades/font";
 @import "./Utilidades/colors";
 
+@import "./Utilidades/reset";
+@import "./Utilidades/extend-y-mixin";
 
 @import "./Pages/index";
 @import "./Pages/peliculas";
