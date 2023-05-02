@@ -73,7 +73,6 @@ footer {
     background-image: linear-gradient(to left, $violeta-dark, $negro);
     color: $dorado;
 
-
     .footer-index {
         display: flex;
         flex-wrap: wrap;
@@ -130,12 +129,7 @@ main {
             background-color: lighten($color: $violeta, $amount: 20);
         }
     }
-
-
-
 }
-
-
 
 .col {
     flex: 1 0 0%;
@@ -151,9 +145,6 @@ h1 {
     @extend .text;
 }
 
-
-
-
 @media (max-width: 375px) {
     .header-index1 {
         display: none;
@@ -165,21 +156,4 @@ h1 {
         display: none;
     }
 
-}
-
-@media(max-width:375px) {
-    
-    .footer-index {
-        display: none;
-    }
-    h3{
-        color: $dorado;
-        text-align: center;
-    }
-}
-
-@media(min-width: 376px) {
-    .footer-index2 {
-        display: none;
-    }
 }
