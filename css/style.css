@@ -127,20 +127,7 @@ main p:hover {
     display: none;
   }
 }
-@media (max-width: 375px) {
-  .footer-index {
-    display: none;
-  }
-  h3 {
-    color: burlywood;
-    text-align: center;
-  }
-}
-@media (min-width: 376px) {
-  .footer-index2 {
-    display: none;
-  }
-}
+
 header.nav-item .dropdown-menu {
   background-color: rgba(216, 29, 35, 0.831372549);
 }
