@@ -15,8 +15,8 @@ header {
   background-image: linear-gradient(to left, #d209ec, #2e122e);
 }
 header .nav a img {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
 }
 header .nav {
   display: flex;
@@ -36,6 +36,7 @@ header .nav li:hover {
 header .nav ul {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 header .nav a {
   margin: 30px;
@@ -45,8 +46,10 @@ header .nav a:hover {
   color: #ffee00;
 }
 header .nav img {
-  width: 137px;
-  margin-left: -26px;
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin: -25px;
 }
 header .navbar-toggler {
   background-color: #d209ec;
@@ -117,8 +120,8 @@ main p:hover {
   flex-wrap: wrap;
 }
 .col img:hover {
-  transform: translateY(-10px);
-  transition: transform 0.2s ease-out;
+  transform: translateY(-20px);
+  transition: transform 0.3s ease-out;
 }
 
 .footer-2 {
@@ -140,6 +143,9 @@ a {
   display: flex;
   justify-content: center;
   padding: 10px;
+}
+.f2 a {
+  background-color: #d209ec;
 }
 
 .icons-footer-2 {
@@ -220,6 +226,16 @@ main.main-pelis .titulo-h1 {
     display: none;
   }
 }
+@media (max-width: 990px) {
+  .footer-index {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .footer-2 {
+    display: none;
+  }
+}
 main .col {
   flex: 1 0 0%;
   display: flex;
@@ -238,6 +254,16 @@ main .col {
     display: none;
   }
 }
+@media (max-width: 990px) {
+  .footer-index {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .footer-2 {
+    display: none;
+  }
+}
 main .container {
   flex-wrap: wrap;
   padding: 18px;
@@ -253,6 +279,16 @@ main .container {
     display: none;
   }
 }
+@media (max-width: 990px) {
+  .footer-index {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .footer-2 {
+    display: none;
+  }
+}
 main .main-reg {
   background-image: url(https://palomaynacho.com/wp-content/uploads/2022/12/john-wick-ccxp-poster.jpg);
   color: #ffffff;
@@ -265,7 +301,7 @@ main .main-reg {
 }
 
 .form-section {
-  padding: 1px;
+  padding: 100px;
   height: 1500px;
 }
 
@@ -276,6 +312,16 @@ main .main-reg {
 }
 @media (min-width: 991px) {
   .header-registro2 {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  .footer-index {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .footer-2 {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */

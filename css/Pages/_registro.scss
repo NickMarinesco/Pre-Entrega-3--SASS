@@ -11,7 +11,7 @@ main .main-reg {
 
 
 .form-section {
-    padding: 1px;
+    padding: 100px;
     height: 1500px;
     
 }
@@ -30,4 +30,15 @@ main .main-reg {
         display: none;
     }
 
+}
+@media(max-width: 990px) {
+    .footer-index {
+        display: none;
+    }
+}
+
+@media (min-width:991px) {
+    .footer-2 {
+        display: none;
+    }
 }
