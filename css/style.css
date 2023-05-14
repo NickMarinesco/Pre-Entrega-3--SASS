@@ -121,6 +121,37 @@ main p:hover {
   transition: transform 0.2s ease-out;
 }
 
+.footer-2 {
+  background-image: linear-gradient(to left, #d209ec, #2e122e);
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: burlywood;
+  font-size: 10px;
+}
+
+.f2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.icons-footer-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: linear-gradient(to left, #d209ec, #2e122e);
+}
+.icons-footer-2 img {
+  width: 20px;
+}
+
 @media (max-width: 990px) {
   .header-index1 {
     display: none;
@@ -128,6 +159,16 @@ main p:hover {
 }
 @media (min-width: 991px) {
   .header-index2 {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  .footer-index {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .footer-2 {
     display: none;
   }
 }
@@ -226,7 +267,6 @@ main .main-reg {
 .form-section {
   padding: 1px;
   height: 1500px;
-  padding: 300px;
 }
 
 @media (max-width: 990px) {

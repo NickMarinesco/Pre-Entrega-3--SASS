@@ -152,6 +152,41 @@ h1 {
     @extend .text;
 }
 
+.footer-2 {
+    background-image: linear-gradient(to left, $violeta, $violeta-dark);
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: $dorado;
+    font-size: 10px;
+    
+  }
+
+.f2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icons-footer-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, $violeta, $violeta-dark);
+
+    img {
+        width: 20px;
+    }
+}
+
+
+
 @media (max-width: 990px) {
     .header-index1 {
         display: none;
@@ -163,4 +198,16 @@ h1 {
         display: none;
     }
 
+}
+
+@media(max-width: 990px) {
+    .footer-index {
+        display: none;
+    }
+}
+
+@media (min-width:991px) {
+    .footer-2 {
+        display: none;
+    }
 }
