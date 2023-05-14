@@ -117,17 +117,16 @@ main p:hover {
   flex-wrap: wrap;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 990px) {
   .header-index1 {
     display: none;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 991px) {
   .header-index2 {
     display: none;
   }
 }
-
 header.nav-item .dropdown-menu {
   background-color: rgba(216, 29, 35, 0.831372549);
 }
@@ -166,12 +165,12 @@ main.main-pelis .titulo-h1 {
   display: flex;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 990px) {
   .header-peliculas1 {
     display: none;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 991px) {
   .header-peliculas2 {
     display: none;
   }
@@ -184,12 +183,12 @@ main .col {
   margin-bottom: 10%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 990px) {
   .header-series1 {
     display: none;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 991px) {
   .header-series2 {
     display: none;
   }
@@ -199,12 +198,12 @@ main .container {
   padding: 18px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 990px) {
   .header-musica1 {
     display: none;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 991px) {
   .header-musica2 {
     display: none;
   }
@@ -225,12 +224,12 @@ main .main-reg {
   height: 1500px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 990px) {
   .header-registro1 {
     display: none;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 991px) {
   .header-registro2 {
     display: none;
   }
