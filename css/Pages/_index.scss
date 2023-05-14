@@ -139,6 +139,13 @@ main {
     margin-bottom: 10%;
     flex-direction: row;
     flex-wrap: wrap;
+
+    img:hover {
+        transform: translateY(-10px);
+        transition: transform 0.2s ease-out;
+    }
+
+
 }
 
 h1 {

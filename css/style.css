@@ -116,6 +116,10 @@ main p:hover {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.col img:hover {
+  transform: translateY(-10px);
+  transition: transform 0.2s ease-out;
+}
 
 @media (max-width: 990px) {
   .header-index1 {
@@ -222,6 +226,7 @@ main .main-reg {
 .form-section {
   padding: 1px;
   height: 1500px;
+  padding: 300px;
 }
 
 @media (max-width: 990px) {
